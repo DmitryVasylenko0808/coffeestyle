@@ -1022,3 +1022,119 @@ div.contact-form {
     color: #a25f4b;
 }
 /* ==================================================== */
+
+/* ==================================================== */
+/* PRODUCTS PAGE */
+.prod {
+    padding-top: 100px;
+}
+.prod-content {
+}
+.prod-heading {
+    margin-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prod-heading__title {
+    margin-bottom: 15px;
+    font-size: 36px;
+
+    text-align: center;
+}
+.prod-heading__text {
+    margin-bottom: 40px;
+
+    font-size: 18px;
+    text-align: center;
+}
+.sort-menu {
+    display: flex;
+    gap: 10px;
+}
+.sort-menu__item {
+    padding: 10px 16px;
+    border: 1px solid #d1d1d1;
+
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #a25f4b;
+    
+    transition: .4s ease-in;
+}
+.sort-menu__item:hover, .sort-menu__item.active {
+    border: 1px solid #a25f4b;
+}
+
+.prod-slider {
+    margin-bottom: 140px;
+}
+.sliders {
+    margin-bottom: 35px;
+
+    display: flex;
+}
+.sliders__prev,
+.sliders__next {
+    min-width: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliders__prev img,
+.sliders__next img {
+    width: 12px;
+    height: 20px;
+}
+.sliders-item {
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.sliders-item__img {
+    min-width: 460px;
+    height: 380px;
+}
+.sliders-item__info {
+    flex: 1 1 auto;
+}
+.sliders-item__label {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.sliders-item__title {
+    margin-bottom: 15px;
+
+    font-size: 28px;
+
+    color: #1d1f2e;
+}
+.sliders-item__text {
+    margin-bottom: 15px;
+}
+.sliders-item__btn {
+    padding: 18px 24px;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+}
+.circle.active {
+    background-color: #b3b3b3;
+}
+/* ==================================================== */
